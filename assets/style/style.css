@@ -147,6 +147,10 @@ body {
   line-height: 1.4;
 }
 
+.active {
+  border-bottom: 1px solid black;
+}
+
 h1 {
   font-size: 60px;
 }
@@ -174,6 +178,7 @@ h6 {
   font-size: 12px;
   margin-top: 2rem;
   margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* CLASSES */
@@ -231,7 +236,7 @@ a {
   display: hidden;
   background-color: white;
   width: 250px;
-  border: 1px solid gray;
+  padding: 20px 0;
   display: none;
   top: 30px;
   -webkit-transform: translateX(-50%);
@@ -240,7 +245,11 @@ a {
 }
 
 .sub-menu li {
-  padding-top: 10px;
+  padding-top: 15px;
+}
+
+.sub-menu li:nth-child(1) {
+  padding-top: 0;
 }
 
 .sub-menu .fas {
@@ -317,10 +326,6 @@ a {
   width: 50%;
 }
 
-.hero .hero-heading-l h2 {
-  font-family: "Shadows Into Light", cursive;
-}
-
 .hero .btn {
   margin-top: 2.5rem;
 }
@@ -383,7 +388,6 @@ a {
 }
 
 .fourth-sec h3 {
-  font-family: "Shadows Into Light", cursive;
   margin-bottom: 2rem;
 }
 
@@ -457,7 +461,6 @@ a {
 }
 
 .fifth-sec h3 {
-  font-family: "Shadows Into Light", cursive;
   margin-bottom: 2rem;
 }
 
@@ -472,11 +475,6 @@ a {
 
 .sixth-sec {
   background-color: #f6efe8;
-}
-
-.sixth-sec h4 {
-  font-family: "Amatic SC", cursive;
-  font-family: "Shadows Into Light", cursive;
 }
 
 .sixth-sec .left {
@@ -528,10 +526,6 @@ a {
   font-weight: 600;
 }
 
-.sixth-sec .left img {
-  margin-top: 5rem;
-}
-
 .gallery {
   padding-bottom: 2rem;
 }
@@ -539,8 +533,6 @@ a {
 .gallery h2 {
   text-align: center;
   margin-top: 3rem;
-  font-family: "Amatic SC", cursive;
-  font-family: "Shadows Into Light", cursive;
   font-weight: 600;
 }
 
@@ -716,5 +708,122 @@ hr {
 .footer-icons p {
   font-size: 15px;
   color: #1277c8;
+}
+
+.second-sec {
+  padding-bottom: 3rem;
+}
+
+.second-sec .img-div {
+  width: 50%;
+}
+
+.second-sec h2 {
+  font-weight: 500;
+}
+
+.second-sec img {
+  -webkit-box-shadow: 4px 4px 10px 3px #cfcbcb;
+          box-shadow: 4px 4px 10px 3px #cfcbcb;
+}
+
+.second-sec .share-files {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 6rem;
+}
+
+.section-3 {
+  background-color: #f5f5f5;
+  padding-top: 4rem;
+}
+
+.section-3 .links {
+  padding-top: 20px;
+}
+
+.section-3 h5 {
+  font-size: 30px;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.section-3 .left {
+  width: 50%;
+  margin-top: 7rem;
+}
+
+.section-3 .anchor {
+  margin: 0;
+  color: #1264a3;
+}
+
+.section-3 .right {
+  width: 50%;
+}
+
+.section-3 .drive-icons {
+  width: 400px;
+  background-color: white;
+  border: 1px solid #b4aeae;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+.section-3 .drive-icons .drive-div {
+  width: 60px;
+}
+
+.section-3 .drive-icons .drive-div img {
+  width: 100%;
+}
+
+.section-3 .file-mgt {
+  margin-left: 1rem;
+}
+
+.section-3 .google-drive {
+  font-weight: 600;
+}
+
+.section-5 {
+  padding-bottom: 3rem;
+}
+
+.section-5 .bold-p {
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section-5 p {
+  padding-bottom: 1rem;
+}
+
+.section-5 .article {
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.section-5 .box {
+  width: 30%;
+}
+
+.section-5 .box .anchor {
+  margin: 0;
+  color: #1264a3;
+}
+
+.section-5 .box i {
+  font-size: 40px;
+}
+
+.section-6 h2 {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

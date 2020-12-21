@@ -1,0 +1,104 @@
+// section-2
+.second-sec {
+  padding-bottom: 3rem;
+  .img-div {
+    width: 50%;
+  }
+  h2 {
+    font-weight: 500;
+  }
+
+  img {
+    box-shadow: 4px 4px 10px 3px #cfcbcb;
+  }
+  .share-files {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 6rem;
+  }
+}
+
+// section-3
+.section-3 {
+  background-color: #f5f5f5;
+  padding-top: 4rem;
+  .links {
+    padding-top: 20px;
+  }
+  h5 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  .left {
+    width: 50%;
+    margin-top: 7rem;
+  }
+  .anchor {
+    margin: 0;
+    color: #1264a3;
+  }
+  .right {
+    width: 50%;
+  }
+
+  .drive-icons {
+    width: 400px;
+    background-color: white;
+    border: 1px solid rgb(180, 174, 174);
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    .drive-div {
+      width: 60px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .file-mgt {
+    margin-left: 1rem;
+  }
+  .google-drive {
+    font-weight: 600;
+  }
+}
+
+.section-5{
+  padding-bottom: 3rem;
+  .bold-p{
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  p{
+    padding-bottom: 1rem;
+  }
+
+  .article {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+    
+  }
+  .box {
+    width: 30%;
+  
+    .anchor {
+      margin: 0;
+      color: #1264a3;
+    }
+    i {
+      font-size: 40px;
+    }
+  }
+}
+.section-6{
+  h2{
+    text-align: center;
+  }
+}
+
+
+
